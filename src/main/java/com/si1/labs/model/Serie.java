@@ -20,7 +20,7 @@ public class Serie implements Serializable {
 	private static final long serialVersionUID = -8649556478766359360L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_serie")
 	private Long id;
 
