@@ -7,14 +7,11 @@
     service('endPointsService', [function () {
   
       var ctrl = this;
-  
-      ctrl.basePath = 'https://seriesflix.herokuapp.com';
-      // ctrl.basePath = '';
       
-      ctrl.postLogin = ctrl.basePath + '/usuario/login';
-      ctrl.postCadastrar = ctrl.basePath + '/usuario/cadastrar';
-      ctrl.postAdicionaSerie = ctrl.basePath + '/serieService/adiciona';
-      ctrl.postRemoveSerie = ctrl.basePath + '/serieService/remove';
+      ctrl.postLogin = '/usuario/login';
+      ctrl.postCadastrar = '/usuario/cadastrar';
+      ctrl.postAdicionaSerie = '/serieService/adiciona';
+      ctrl.postRemoveSerie = '/serieService/remove';
       
       ctrl.statusOk = function (status) {
     	  return (status >= 200 && status <= 299);
