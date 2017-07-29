@@ -6,7 +6,7 @@
 	<groupId>com.si1.labs</groupId>
 	<artifactId>seriesflix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>seriesflix</name>
 	<description>Lab 3 de SI1 UFCG 2017 1</description>
@@ -47,6 +47,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
+			
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
