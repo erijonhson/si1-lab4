@@ -21,7 +21,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
 @RestController
-@RequestMapping(value = "/usuario")
+@RequestMapping(value = "/seriesflix/usuario")
 public class UsuarioController {
 	
 	@Autowired

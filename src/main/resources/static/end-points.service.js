@@ -8,10 +8,12 @@
   
       var ctrl = this;
       
-      ctrl.postLogin = '/usuario/login';
-      ctrl.postCadastrar = '/usuario/cadastrar';
-      ctrl.postAdicionaSerie = '/serieService/adiciona';
-      ctrl.postRemoveSerie = '/serieService/remove';
+      ctrl.basePath = '/seriesflix';
+      
+      ctrl.postLogin = ctrl.basePath + '/usuario/login';
+      ctrl.postCadastrar = ctrl.basePath + '/usuario/cadastrar';
+      ctrl.postAdicionaSerie = ctrl.basePath + '/serieService/adiciona';
+      ctrl.postRemoveSerie = ctrl.basePath + '/serieService/remove';
       
       ctrl.statusOk = function (status) {
     	  return (status >= 200 && status <= 299);
