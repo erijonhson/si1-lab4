@@ -8,8 +8,8 @@
   
       var ctrl = this;
   
-      // ctrl.basePath = 'https://seriesflix.herokuapp.com/seriesflix';
-      ctrl.basePath = '';
+      ctrl.basePath = 'https://seriesflix.herokuapp.com';
+      // ctrl.basePath = '';
       
       ctrl.postLogin = ctrl.basePath + '/usuario/login';
       ctrl.postCadastrar = ctrl.basePath + '/usuario/cadastrar';
