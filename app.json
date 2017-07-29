@@ -1,0 +1,7 @@
+{
+  "name": "Series Flix",
+  "description": "Lab 4 de SI1 UFCG",
+  "repository": "https://github.com/erijonhson/si1-lab4",
+  "image": "src/main/resources/static/img",
+  "addons": [ "heroku-postgresql" ]
+}
