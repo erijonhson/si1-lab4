@@ -63,11 +63,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<!--
 		<dependency>
-    	<!-- trabalhar fora de casa... obrigado Erick (https://github.com/ericbreno/how-to-spring-boot) -->
+    	 trabalhar fora de casa... obrigado Erick (https://github.com/ericbreno/how-to-spring-boot)
     		<groupId>com.h2database</groupId>
     		<artifactId>h2</artifactId>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt</artifactId>
