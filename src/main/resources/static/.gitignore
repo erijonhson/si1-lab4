@@ -1,4 +1,5 @@
 !bower_components/**/dist/
+!bower_components/**/build/
 logs/*
 !.gitkeep
 node_modules/
