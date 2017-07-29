@@ -8,7 +8,7 @@
   
       var ctrl = this;
   
-      ctrl.basePath = 'http://localhost:8080/seriesflix';
+      ctrl.basePath = 'https://seriesflix.herokuapp.com';
       
       ctrl.postLogin = ctrl.basePath + '/usuario/login';
       ctrl.postCadastrar = ctrl.basePath + '/usuario/cadastrar';
