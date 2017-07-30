@@ -41,7 +41,7 @@
        * Carrega os detalhes do IMDB para a série.
        */
       serieFactory.prototype.carregarDetalhes = function () {
-          const getUri = 'http://www.omdbapi.com/?apikey=93330d3c&r=json&i=' + this.imdbID;
+          const getUri = 'https://www.omdbapi.com/?apikey=93330d3c&r=json&i=' + this.imdbID;
           return $http.get(getUri).then(data => {
         	  this.mergeDetails(data.data);
               return this;
